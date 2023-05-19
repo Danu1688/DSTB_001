@@ -1,17 +1,4 @@
 proxies:
-- name: danu01_AkrabIKD01abc
-  type: trojan
-  server: 104.26.5.12
-  port: 443
-  password: 1cf65ea4-981a-4c71-8a9b-c75564a0cf76
-  udp: true
-  sni: ikd.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: ikd.sshpremium.my.id
 - name: danu01_AkrabCtn01a
   type: trojan
   server: 104.26.5.12
