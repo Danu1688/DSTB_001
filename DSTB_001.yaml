@@ -1,5 +1,5 @@
 proxies:
-- name: danu01_AkrabIKD01a
+- name: danu01_AkrabIKD01ab
   type: trojan
   server: 104.26.5.12
   port: 443
