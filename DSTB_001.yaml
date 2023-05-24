@@ -1,5 +1,5 @@
 proxies:
-- name: danu01_VmessAkrab
+- name: danu01_VmessAkrab_Tes
   type: vmess
   server: 104.20.75.141
   port: 443
@@ -12,7 +12,7 @@ proxies:
   servername: ikd.sshpremium.my.id
   network: ws
   ws-opts:
-    path: /vmessws
+    path: "/vmessws"
     headers:
       Host: ikd.sshpremium.my.id
 - name: danu01_AkrabCtn01a
