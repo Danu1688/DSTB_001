@@ -9,7 +9,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan
     headers:
       Host: sg-melbi2.rajs-vpn.xyz
 - name: danu01_LiveMelbi01b
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan
     headers:
       Host: sg-melbi2.rajs-vpn.xyz
 - name: danu01_LiveMelbi01c
@@ -35,7 +35,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan
     headers:
       Host: sg-melbi2.rajs-vpn.xyz
 - name: danu01_LiveCtn01a
