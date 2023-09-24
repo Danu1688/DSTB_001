@@ -1,5 +1,5 @@
 proxies:
-- name: DanuNusa_LiveNusa_1
+- name: DanuNusa1_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpna4mvbhv.scpotato.me
-- name: DanuRmWeb_LiveRmWeb_1
+- name: DanuRmWeb1_LiveRmWeb_1
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpnrdfs1ov.scpotato.me
-- name: DanuBiznet_LiveBiznet_1
+- name: DanuBiznet1_LiveBiznet_1
   type: trojan
   server: beacon.liveon.id
   port: 443
