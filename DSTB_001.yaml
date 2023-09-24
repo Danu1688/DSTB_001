@@ -38,7 +38,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpn46tnyyt.scpotato.me
-- name: DstbBackupSvr01_LiveDO_1
+- name: DstbBackupSvr1_LiveDO_1
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DanuVmessTLS-LIVE-DO_1
+- name: DanuVmessTLS1-LIVE-DO_1
   type: vmess
   server: circles.asia
   port: 443
@@ -67,7 +67,7 @@ proxies:
     path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DanuVmessNTLS-LIVE-DO_1
+- name: DanuVmessNTLS1-LIVE-DO_1
   type: vmess
   server: circles.asia
   port: 80
@@ -109,7 +109,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
-- name: DanuBackup_LiveDO_3
+- name: DanuBackup-Irul_LiveDO
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -265,7 +265,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-- name: TrojanTestSgDo2-Live
+- name: TrojanTestSgDo1-LiveDO-1
   type: trojan
   server: circles.asia
   port: 443
@@ -278,7 +278,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: TrojanTestSgDo2B-Live
+- name: TrojanTestSgDo2-LiveDO-2
   type: trojan
   server: circles.asia
   port: 443
@@ -291,7 +291,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: TrojanGoTest-Live_1
+- name: TrojanGoTest3-Live_3
   server: circles.asia
   port: 8443
   type: trojan
@@ -304,7 +304,7 @@ proxies:
     path: /trojan-go
     headers:
         Host: sgdo3.dstb.cloud
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsSvr3-LiveDO-3
   type: trojan
   server: circles.asia
   port: 443
@@ -317,7 +317,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
-- name: DSTB1Test_LiveDO_1
+- name: DSTB1Test2_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
@@ -330,7 +330,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: GatotDua_LiveDO_1
+- name: GatotDua_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
@@ -343,7 +343,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: WilaLaviana_LiveDO_1
+- name: WilaLaviana_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
@@ -356,7 +356,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB2Test_LiveDO_1
+- name: DSTB2Test2_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
@@ -369,7 +369,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB3Vmess_LiveDO_1
+- name: DSTB3Vmess2_LiveDO_2
   type: vmess
   server: circles.asia
   port: 443
@@ -385,7 +385,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB4Trojan_LiveDO_1
+- name: DSTB4Trojan2_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
