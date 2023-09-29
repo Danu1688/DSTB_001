@@ -1,7 +1,7 @@
 proxies:
 - name: DanuNusa1_LiveNusa_1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
   password: 55349efa-6b40-4225-9158-946a3e3e07eb
   udp: true
