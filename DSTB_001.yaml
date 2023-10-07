@@ -1,22 +1,9 @@
 proxies:
-- name: DanuNusa1Thn_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: 6bb36097-64b5-4a15-86a0-47904b935f93
-  udp: true
-  sni: nusa.idstore.biz.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa.idstore.biz.id
 - name: DanuNusa1Thn_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
-  password: 6bb36097-64b5-4a15-86a0-47904b935f93
+  password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
   udp: true
   sni: nusa.idstore.biz.id
   skip-cert-verify: true
@@ -29,33 +16,7 @@ proxies:
   type: trojan
   server: 172.67.75.37
   port: 443
-  password: 6bb36097-64b5-4a15-86a0-47904b935f93
-  udp: true
-  sni: nusa.idstore.biz.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa.idstore.biz.id
-- name: DanuNusa1Thn_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 6bb36097-64b5-4a15-86a0-47904b935f93
-  udp: true
-  sni: nusa.idstore.biz.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa.idstore.biz.id
-- name: DanuNusa1Thn_Live_IP5
-  type: trojan
-  server: 104.26.14.208
-  port: 443
-  password: 6bb36097-64b5-4a15-86a0-47904b935f93
+  password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
   udp: true
   sni: nusa.idstore.biz.id
   skip-cert-verify: true
