@@ -12,9 +12,9 @@ proxies:
     path: /trojan
     headers:
       Host: nusa.idstore.biz.id
-- name: DanuNusa1Thn_Live_IP3
+- name: DanuNusa1Thn_Live_IP2
   type: trojan
-  server: 172.67.75.37
+  server: 104.16.143.190
   port: 443
   password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
   udp: true
