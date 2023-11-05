@@ -1,4 +1,20 @@
 proxies:
+- name: CLOUDS
+  type: vmess
+  server: circles.asia
+  port: 80
+  uuid: e321e812-f3cb-4653-a82c-7132ab548c01
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: cloud.inject.my.id
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: cloud.inject.my.id
 - name: sg
   type: vmess
   server: circles.asia
