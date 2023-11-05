@@ -15,17 +15,17 @@ proxies:
 - name: CloudVmess_Live_H1
   type: vmess
   server: circles.asia
-  port: 443
+  port: 80
   uuid: 4f729c59-21c8-4560-87ad-84b4d7c5b4ae
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
   servername: cloud.inject.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /kuota-habis
     headers:
       Host: cloud.inject.my.id
 - name: DanuNusa_Live_IP1
