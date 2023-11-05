@@ -1,7 +1,7 @@
 proxies:
 - name: CLOUDS
   type: vmess
-  server: circles.asia
+  server: 172.67.75.37
   port: 80
   uuid: e321e812-f3cb-4653-a82c-7132ab548c01
   alterId: 0
@@ -17,7 +17,7 @@ proxies:
       Host: cloud.inject.my.id
 - name: sg
   type: vmess
-  server: circles.asia
+  server: 172.67.75.37
   port: 80
   uuid: 8f5ec5b-9038-43d2-86ae-2b03bcd7c45a
   alterId: 0
@@ -33,7 +33,7 @@ proxies:
       Host: akamai.inject.my.id
 - name: CloudTrojan_Live_H1
   type: trojan
-  server: circles.asia
+  server: 172.67.75.37
   port: 443
   password: bfc6ca83-74b6-49fc-8271-98b429f1f639
   udp: true
@@ -41,12 +41,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: "/trojanws"
     headers:
       Host: cloud.inject.my.id
 - name: CloudVmess_Live_H1
   type: vmess
-  server: circles.asia
+  server: 172.67.75.37
   port: 80
   uuid: 4f729c59-21c8-4560-87ad-84b4d7c5b4ae
   alterId: 0
@@ -57,7 +57,7 @@ proxies:
   servername: cloud.inject.my.id
   network: ws
   ws-opts:
-    path: /kuota-habis
+    path: "/kuota-habis"
     headers:
       Host: cloud.inject.my.id
 - name: DanuNusa_Live_IP1
