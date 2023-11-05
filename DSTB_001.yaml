@@ -1,4 +1,33 @@
 proxies:
+- name: trojan-cloud
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: ce7d95f1-90bd-4247-93cc-6039bb10d738
+  udp: true
+  sni: clouds.nontls.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: clouds.nontls.my.id
+- name: VMESS-CLOUDS
+  type: vmess
+  server: circles.asia
+  port: 80
+  uuid: e321e812-f3cb-4653-a82c-7132ab548c01
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: clouds.nontls.my.id
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: clouds.nontls.my.id
 - name: HerzaTrojan
   type: trojan
   server: circles.asia
