@@ -96,7 +96,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/kuota-habis"
+    path: "/vmess"
     headers:
       Host: akamai.inject.my.id
 - name: CloudTrojan_Live_H1
@@ -125,7 +125,7 @@ proxies:
   servername: cloud.inject.my.id
   network: ws
   ws-opts:
-    path: "/kuota-habis"
+    path: "/vmess"
     headers:
       Host: cloud.inject.my.id
 - name: DanuNusa_Live_IP1
