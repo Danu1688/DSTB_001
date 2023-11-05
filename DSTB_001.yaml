@@ -1,4 +1,17 @@
 proxies:
+- name: HerzaTrojan
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: f22cb84a-9adb-4719-880d-225c3d8b516f
+  udp: true
+  sni: 1.xhtm.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aryo
+    headers:
+      Host: 1.xhtm.my.id
 - name: CLOUDS
   type: vmess
   server: 172.67.75.37
