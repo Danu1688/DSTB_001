@@ -16,7 +16,7 @@ proxies:
   type: vmess
   server: circles.asia
   port: 443
-  uuid: bfc6ca83-74b6-49fc-8271-98b429f1f639
+  uuid: 4f729c59-21c8-4560-87ad-84b4d7c5b4ae
   alterId: 0
   cipher: auto
   udp: true
