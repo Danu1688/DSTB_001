@@ -1,4 +1,20 @@
 proxies:
+- name: sg
+  type: vmess
+  server: circles.asia
+  port: 80
+  uuid: 8f5ec5b-9038-43d2-86ae-2b03bcd7c45a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: akamai.inject.my.id
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/kuota-habis"
+    headers:
+      Host: akamai.inject.my.id
 - name: CloudTrojan_Live_H1
   type: trojan
   server: circles.asia
