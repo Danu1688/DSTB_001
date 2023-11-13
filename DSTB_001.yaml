@@ -1,17 +1,17 @@
 proxies:
-- name: Akamai3bln_Live_H1
+- name: DanuNusa_Live_IP1
   type: trojan
-  server: circles.asia
+  server: 104.17.224.203
   port: 443
-  password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
   udp: true
-  sni: akamaiz.nontls.my.id
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /trojan-ws
     headers:
-      Host: akamaiz.nontls.my.id
+      Host: nusa.dstb.cloud
 - name: DanuNusa_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -90,19 +90,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: DanuNusa1Thn_Live_H1
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
-  udp: true
-  sni: nusa.idstore.biz.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa.idstore.biz.id
 - name: DanuDo2_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -194,3 +181,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
+      
